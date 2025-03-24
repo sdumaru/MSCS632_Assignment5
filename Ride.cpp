@@ -1,7 +1,5 @@
 #include "Ride.h"
 
-using namespace std;
-
 Ride::Ride(int id, string pickup, string dropoff, double dist, double fare)
     : rideID(id)
     , pickupLocation(pickup)

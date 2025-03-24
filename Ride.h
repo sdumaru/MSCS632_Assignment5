@@ -3,17 +3,19 @@
 
 #include <iostream>
 
+using namespace std;
+
 class Ride
 {
 protected:
     int rideID;
-    std::string pickupLocation;
-    std::string dropoffLocation;
+    string pickupLocation;
+    string dropoffLocation;
     double distance;
     double farePerMilage;
 
 public:
-    Ride(int id, std::string pickup, std::string dropoff, double dis, double fare);
+    Ride(int id, string pickup, string dropoff, double dis, double fare);
     virtual ~Ride() = default;
 
     virtual double fare() const;
