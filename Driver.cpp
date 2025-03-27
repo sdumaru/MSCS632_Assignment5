@@ -16,5 +16,11 @@ void Driver::getDriverInfo() const
 {
     cout << "Driver ID: " << driverID
          << ", Name: " << name
-         << ", Rating: " << rating << endl;
+         << ", Rating: " << rating
+         << ", Total Assigned rides: " << assignedRides.size() << std::endl;
+}
+
+const vector<Ride *> Driver::getAssignedRides() const
+{
+    return assignedRides;
 }

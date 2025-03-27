@@ -12,9 +12,9 @@ double PremiumRide::fare() const
 
 void PremiumRide::rideDetails() const
 {
-    cout << "Ride ID: " << rideID
+    cout << "Premium Ride ID: " << rideID
          << ", From: " << pickupLocation
          << " to " << dropoffLocation
          << ", Distance: " << distance << " miles"
-         << ", Cost: " << 5 * farePerMilage << " per mile." << endl;
+         << ", Fare per mile: $" << 5 * farePerMilage << endl;
 }

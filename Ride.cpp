@@ -20,5 +20,5 @@ void Ride::rideDetails() const
          << ", From: " << pickupLocation
          << " to " << dropoffLocation
          << ", Distance: " << distance << " miles"
-         << ", Cost: " << farePerMilage << " per mile." << endl;
+         << ", Fare per mile: $" << farePerMilage << endl;
 }

@@ -16,6 +16,7 @@ public:
     Driver(int id, string driverName, double driverRating);
     void addRide(Ride *ride);
     void getDriverInfo() const;
+    const vector<Ride*> getAssignedRides() const; // Encapsulation: Providing controlled access
 };
 
 #endif

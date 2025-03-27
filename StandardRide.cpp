@@ -12,9 +12,9 @@ double StandardRide::fare() const
 
 void StandardRide::rideDetails() const
 {
-    cout << "Ride ID: " << rideID
+    cout << "Standard Ride ID: " << rideID
          << ", From: " << pickupLocation
          << " to " << dropoffLocation
          << ", Distance: " << distance << " miles"
-         << ", Cost: " << 2 * farePerMilage << " per mile." << endl;
+         << ", Fare per mile: $" << 2 * farePerMilage << endl;
 }
